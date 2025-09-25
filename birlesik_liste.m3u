@@ -71,37 +71,6 @@ https://api.codetabs.com/v1/proxy/?quest=https://andro.okan9gote10sokan.cfd/chec
 #EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Exxen 7 HD" tvg-logo="https://i.hizliresim.com/8xzjgqv.jpg" group-title="NexaTV",TR:Exxen 7 HD
 https://api.codetabs.com/v1/proxy/?quest=https://andro.okan9gote10sokan.cfd/checklist/androstreamliveexn7.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS 1 (+)" tvg-logo="https://i.imgur.com/drPalQa.png" group-title="⚽ SPOR",BEIN SPORTS 1 HD
-https://goldvod.org/tv/vavoo?id=24034250314fd9aa349685
-#EXTINF:-1 tvg-id="" tvg-name="TRT SPOR" tvg-logo="https://foto.haberler.com/haber/2024/08/05/trt-spor-canli-izle-5-agustos-pazartesi-trt-17688178_4902_amp.jpg" group-title="⚽ SPOR", TRT SPOR
-https://trt.daioncdn.net/trtspor/master.m3u8?app=web&platform=trtspor.m3u8
-#EXTINF:-1 tvg-name="HT SPOR HD" tvg-logo="https://cine10giris.org.tr/resim/spor/ht.spor.png" group-title="⚽ SPOR",HT Spor
-https://ciner-live.ercdn.net/htspor/htspor.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="EKOL SPOR" tvg-logo="https://yt3.googleusercontent.com/DzgqmDc_yXk6sZdoix3kaqkdU8SHn2fViNGsYeljLVOGJBKjDcccCX9UFA3ozp-_6pd8J34l4ME=s900-c-k-c0x00ffffff-no-rj" group-title="⚽ SPOR", EKOL SPOR
-https://ekoltv-live.ercdn.net/ekolsport/ekolsport_1080p.m3u8
-#EXTINF:-1 tvg-id="27" tvg-logo="https://cine10giris.org.tr/resim/ulusal/tv8.5.png" group-title="⚽ SPOR",Tv 8,5
-https://tv8-live.daioncdn.net/tv8bucuk/tv8bucuk_1080p.m3u8
-#EXTINF:-1 tvg-name="Sports TV" tvg-logo="https://cine10giris.org.tr/resim/spor/sports.tv.png" group-title="⚽ SPOR",Sports TV
-https://live.sportstv.com.tr/hls/low/sportstv.m3u8
-#EXTINF:-1 tvg-name="TJK TV HD" tvg-logo="https://cine10giris.org.tr/resim/spor/tjk.tv.png" group-title="⚽ SPOR",TJK TV HD
-https://tjktv-live.tjk.org/tjktv/tjktv.m3u8
-#EXTINF:-1  tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/06bc7085-065e-473e-b4aa-ec56ed3455f5.png" group-title="⚽ SPOR",Fb Tv
-https://1hskrdto.rocketcdn.com/fenerbahcetv.smil/chunklist_b2496000_sltur.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TABİ SPOR" tvg-logo="https://i.imgur.com/QaBZS0C.png" group-title="⚽ SPOR",TABİ SPOR 
-https://beert7sqimrk0bfdupfgn6qew.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TABİ SPOR 1" tvg-logo="https://i.imgur.com/MbvDeRI.png" group-title="⚽ SPOR",TABİ SPOR 1
-https://iaqzu4szhtzeqd0edpsayinle.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TABİ SPOR 2" tvg-logo="https://i.imgur.com/LlLVBd5.png" group-title="⚽ SPOR",TABİ SPOR 2
-https://klublsslubcgyiz7zqt5bz8il.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TABİ SPOR 3" tvg-logo="https://i.imgur.com/CgIzF4q.png" group-title="⚽ SPOR",TABİ SPOR 3
-https://ujnf69op16x2fiiywxcnx41q8.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TABİ SPOR 4" tvg-logo="https://i.imgur.com/0azUcMG.png" group-title="⚽ SPOR",TABİ SPOR 4
-https://bfxy3jgeydpbphtk8qfqwm3hr.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TABİ SPOR 5" tvg-logo="https://i.imgur.com/feCtPDB.png" group-title="⚽ SPOR",TABİ SPOR 5
-https://z3mmimwz148csv0vaxtphqspf.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TABİ SPOR 6" tvg-logo="https://i.imgur.com/w5sYNJ6.png" group-title="⚽ SPOR",TABİ SPOR 6
-https://vbtob9hyq58eiophct5qctxr2.medya.trt.com.tr/master.m3u8
-
 #EXTINF:-1 tvg-name="ANADOLU NET TV" tvg-logo="https://cine10giris.org.tr/resim/yerel/anadolum.png" group-title="🌄 YEREL",ANADOLU NET TV
 https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/chunks.m3u8
 #EXTINF:-1 tvg-name="AKSU TV KAHRAMANMARAŞ" tvg-logo="https://cine10giris.org.tr/resim/yerel/aksu.png" group-title="🌄 YEREL",AKSU TV KAHRAMANMARAŞ
@@ -658,6 +627,8 @@ https://dogus-live.daioncdn.net/startv/startv.m3u8
 http://116.202.238.88/FOXTV_TR/index.m3u8
 #EXTINF:-1 tvg-id="15" tvg-logo="https://cine10giris.org.tr/resim/ulusal/tv.8.png" group-title="📺 ULUSAL",Tv 8
 https://tv8-live.daioncdn.net/tv8/tv8.m3u8
+#EXTINF:-1 tvg-id="27" tvg-logo="https://cine10giris.org.tr/resim/ulusal/tv8.5.png" group-title="📺 ULUSAL",Tv 8,5
+https://tv8-live.daioncdn.net/tv8bucuk/tv8bucuk_1080p.m3u8
 #EXTINF:-1 tvg-id="16" tvg-logo="https://cine10giris.org.tr/resim/ulusal/beyaz.tv.png" group-title="📺 ULUSAL",Beyaz Tv
 https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_1080p.m3u8
 #EXTINF:-1 tvg-id="17" tvg-logo="https://cine10giris.org.tr/resim/ulusal/a2.png" group-title="📺 ULUSAL",A2
