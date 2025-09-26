@@ -63,7 +63,7 @@ jobs:
           git add playlist/
           if ! git diff-index --quiet HEAD; then
             git commit -m "✅ TV Listesi Otomatik Güncellendi: $(date)"
-            git pull # <<< DEĞİŞİKLİK BURADA YAPILDI
+            git pull --rebase # <<< YENİ DEĞİŞİKLİK: --rebase EKLENDİ
             git push
           else
             echo "🔄 Değişiklik yok, yükleme atlandı."
