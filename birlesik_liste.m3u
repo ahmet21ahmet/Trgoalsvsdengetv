@@ -512,6 +512,25 @@ http://45.159.95.10:8880/STORE/DIZI.SON.BOLUMLER/Yali.Capkini.SON.mkv
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4SK7GUd7TK5nfo3Ajztd7xIKEluF1pC7cppZH-mhanl6ilWBobbAvvLurS7DDfYYFGWM&usqp=CAU" group-title="🎦 DİZİ SON BL." tvg-name="Zembilli",Zembilli
 http://45.159.95.10:8880/STORE/DIZI.SON.BOLUMLER/Zembilli.SON.mkv
 
+#EXTINF:-1 xui-id="198449" tvg-id="" tvg-name="GLOBAL BOX ACTION" tvg-logo="http://5.175.206.218:80/images/AuNOt3gX2RdNTeunqw1d_D7myxnHqn2j8jZvZPNjgoQ.png" group-title="🎦 GLOBAL SİNEMA",GLOBAL BOX ACTION
+http://5.175.206.218:80/play/YK0EXSbv7E7xlzj__iYOdZU98_omjMcRRM0rgAi4fmg
+#EXTINF:-1 xui-id="198450" tvg-id="" tvg-name="GLOBAL BOX COMEDY" tvg-logo="http://5.175.206.218:80/images/AuNOt3gX2RdNTeunqw1d_D7myxnHqn2j8jZvZPNjgoQ.png" group-title="🎦 GLOBAL SİNEMA",GLOBAL BOX COMEDY
+http://5.175.206.218:80/play/YK0EXSbv7E7xlzj__iYOddi8U6kmN2eeFxHTWOciG0g
+#EXTINF:-1 xui-id="198451" tvg-id="" tvg-name="GLOBAL BOX DRAM" tvg-logo="http://5.175.206.218:80/images/AuNOt3gX2RdNTeunqw1d_D7myxnHqn2j8jZvZPNjgoQ.png" group-title="🎦 GLOBAL SİNEMA",GLOBAL BOX DRAM
+http://5.175.206.218:80/play/YK0EXSbv7E7xlzj__iYOdcp4rSlm2QahX75EuGbawVc
+#EXTINF:-1 xui-id="198452" tvg-id="" tvg-name="GLOBAL BOX FANTASTIC" tvg-logo="http://5.175.206.218:80/images/AuNOt3gX2RdNTeunqw1d_D7myxnHqn2j8jZvZPNjgoQ.png" group-title="🎦 GLOBAL SİNEMA",GLOBAL BOX FANTASTIC
+http://5.175.206.218:80/play/YK0EXSbv7E7xlzj__iYOdSO9UvYJ0UQQzryS4X2plrY
+#EXTINF:-1 xui-id="198453" tvg-id="" tvg-name="GLOBAL BOX KORKU" tvg-logo="http://5.175.206.218:80/images/AuNOt3gX2RdNTeunqw1d_D7myxnHqn2j8jZvZPNjgoQ.png" group-title="🎦 GLOBAL SİNEMA",GLOBAL BOX KORKU
+http://5.175.206.218:80/play/YK0EXSbv7E7xlzj__iYOdR6bF9K2y-wm75kACglutGk
+#EXTINF:-1 xui-id="198454" tvg-id="" tvg-name="GLOBAL BOX VIZYON" tvg-logo="http://5.175.206.218:80/images/AuNOt3gX2RdNTeunqw1d_D7myxnHqn2j8jZvZPNjgoQ.png" group-title="🎦 GLOBAL SİNEMA",GLOBAL BOX VIZYON
+http://5.175.206.218:80/play/YK0EXSbv7E7xlzj__iYOdWX-i0G1UaL0Y8OyQanMn_Y
+#EXTINF:-1 xui-id="198455" tvg-id="" tvg-name="GLOBAL BOX YESILCAM" tvg-logo="http://5.175.206.218:80/images/AuNOt3gX2RdNTeunqw1d_D7myxnHqn2j8jZvZPNjgoQ.png" group-title="🎦 GLOBAL SİNEMA",GLOBAL BOX YESILCAM
+http://5.175.206.218:80/play/YK0EXSbv7E7xlzj__iYOdX9UJkLc_sHReFuc94XypqY
+#EXTINF:-1 xui-id="198456" tvg-id="" tvg-name="GLOBAL BOX YERLI" tvg-logo="http://5.175.206.218:80/images/AuNOt3gX2RdNTeunqw1d_D7myxnHqn2j8jZvZPNjgoQ.png" group-title="🎦 GLOBAL SİNEMA",GLOBAL BOX YERLI
+http://5.175.206.218:80/play/YK0EXSbv7E7xlzj__iYOdZvjTGRKWEcHHQqXRKqB96U
+#EXTINF:-1 xui-id="198457" tvg-id="" tvg-name="GLOBAL KEMAL SUNAL" tvg-logo="http://5.175.206.218:80/images/AuNOt3gX2RdNTeunqw1d_D7myxnHqn2j8jZvZPNjgoQ.png" group-title="🎦 GLOBAL SİNEMA",GLOBAL KEMAL SUNAL
+http://5.175.206.218:80/play/YK0EXSbv7E7xlzj__iYOdXpIQRo8ZU5D08XTfLTtZBE
+
 #EXTINF:-1 tvg-name="Tabi Tv" tvg-logo="https://i.imgur.com/aXtZ8ML.png" group-title="🎦 SİNEMA-DİZİ",Tabi Tv
 https://ceokzokgtd.erbvr.com/tabiitv/tabiitv_1080p.m3u8
 #EXTINF:-1 tvg-name="Cine 1" tvg-logo="https://cine10giris.org.tr/resim/yerel/cine.1.png" group-title="🎦 SİNEMA-DİZİ",Cine 1
