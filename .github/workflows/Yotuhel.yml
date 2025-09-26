@@ -1,21 +1,20 @@
-name: YouTube Playlist Otomatik Güncelleyici
+name: YouTube Otomatik Güncelleyici
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '0 */6 * * *' # Her 6 saatte bir çalışır
   push:
     branches:
       - main
     paths:
       - 'link.json'
+      - 'm3u8.sh' # Script değişirse de tetiklensin
   workflow_dispatch:
 
 jobs:
   build-and-push-playlist:
-    # BU SATIRLAR, WORKFLOW'A DEPOYA YAZMA İZNİ VERİR
     permissions:
       contents: write
-
     runs-on: ubuntu-latest
     steps:
       - name: Depoyu Klonla
@@ -24,46 +23,21 @@ jobs:
       - name: Gerekli araçları kur (jq)
         run: sudo apt-get update && sudo apt-get install -y jq
 
-      - name: Klasörleri Hazırla
+      - name: Playlist Oluşturma Script'ini Çalıştır
         run: |
-          mkdir -p playlist
-          rm -f playlist/*
-
-      - name: M3U8 Dosyalarını İndir
-        run: |
-          cat link.json | jq -c '.[]' | while read -r i; do
-              name=$(echo "$i" | jq -r '.name')
-              url=$(echo "$i" | jq -r '.url')
-              echo "📥 '$name' kanalı indiriliyor..."
-              curl -fsSL "$url" \
-                  -H "User-Agent: Mozilla/5.0" \
-                  -H "Referer: https://live.artofknot.com/" \
-                  -o "playlist/${name}.m3u8" || echo "⚠️ UYARI: '$name' kanalı indirilemedi: $url"
-          done
-
-      - name: Ana Çalma Listesini Oluştur
-        run: |
-          MAIN_PLAYLIST_FILE="playlist/playlist.m3u"
-          echo "#EXTM3U" > "$MAIN_PLAYLIST_FILE"
-          
-          for file in playlist/*.m3u8; do
-              [ -f "$file" ] || continue
-              name=$(basename "$file" .m3u8)
-              github_raw_url="https://raw.githubusercontent.com/${{ github.repository }}/main/$file"
-              
-              echo "#EXTINF:-1 tvg-id=\"$name\" tvg-name=\"$name\",$name" >> "$MAIN_PLAYLIST_FILE"
-              echo "$github_raw_url" >> "$MAIN_PLAYLIST_FILE"
-          done
-          echo "✅ Ana çalma listesi tamamlandı."
+          chmod +x m3u8.sh
+          ./m3u8.sh
 
       - name: Değişiklikleri Depoya Yükle
         run: |
           git config --global user.name 'GitHub Actions Bot'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add playlist/
+          # Hem playlist klasörünü hem de kök dizindeki ana m3u'yu ekle
+          git add playlist/ "$MAIN_PLAYLIST_FILE"
+          
           if ! git diff-index --quiet HEAD; then
             git commit -m "✅ TV Listesi Otomatik Güncellendi: $(date)"
-            git pull --rebase # <<< YENİ DEĞİŞİKLİK: --rebase EKLENDİ
+            git pull --rebase
             git push
           else
             echo "🔄 Değişiklik yok, yükleme atlandı."
