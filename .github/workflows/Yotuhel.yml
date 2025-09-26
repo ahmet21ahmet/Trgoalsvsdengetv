@@ -12,10 +12,10 @@ on:
 
 jobs:
   build-and-push-playlist:
-    # BU SATIRLAR, WORKFLOW'A DEPOYA YAZMA İZNİ VERİR (İsteğin üzerine eklendi)
+    # BU SATIRLAR, WORKFLOW'A DEPOYA YAZMA İZNİ VERİR
     permissions:
       contents: write
-      
+
     runs-on: ubuntu-latest
     steps:
       - name: Depoyu Klonla
@@ -63,6 +63,7 @@ jobs:
           git add playlist/
           if ! git diff-index --quiet HEAD; then
             git commit -m "✅ TV Listesi Otomatik Güncellendi: $(date)"
+            git pull # <<< DEĞİŞİKLİK BURADA YAPILDI
             git push
           else
             echo "🔄 Değişiklik yok, yükleme atlandı."
