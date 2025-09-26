@@ -1,4 +1,4 @@
-name: YouTube Otomatik Güncelleyici
+name: Playlist Otomatik Güncelleyici
 
 on:
   schedule:
@@ -30,10 +30,12 @@ jobs:
 
       - name: Değişiklikleri Depoya Yükle
         run: |
-          git config --global user.name 'GitHub Actions Bot'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          # Hem playlist klasörünü hem de kök dizindeki ana m3u'yu ekle
-          git add playlist/ "$MAIN_PLAYLIST_FILE"
+          # DÜZELTME 1: Tırnak işaretleri çift tırnak (") olarak değiştirildi
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # DÜZELTME 2: git add komutu basitleştirildi ve düzeltildi
+          git add playlist/
           
           if ! git diff-index --quiet HEAD; then
             git commit -m "✅ TV Listesi Otomatik Güncellendi: $(date)"
