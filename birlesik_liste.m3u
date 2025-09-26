@@ -651,8 +651,6 @@ https://tv.ensonhaber.com/benguturk/benguturk.m3u8
 https://ciner-live.daioncdn.net/bloomberght/bloomberght.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BRÜKSEL TÜRK" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR46eLoLqvnQ8yPeLXmyvX-DyIJKyQ2BvrPKg&s" group-title="📡 HABER", BRÜKSEL TÜRK
 https://live.euromediacenter.com/brukselturk/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="HABER GLOBAL HD" tvg-logo="https://cine10giris.org.tr/resim/haberler/haber.global.png" group-title="📡 HABER",HABER GLOBAL
-https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="EKOL TV" tvg-logo="https://cine10giris.org.tr/resim/haberler/ekol.tv.png" group-title="📡 HABER", EKOL TV
 https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="HALK TV HD" tvg-logo="https://cine10giris.org.tr/resim/haberler/halk.png" group-title="📡 HABER", HALK TV
