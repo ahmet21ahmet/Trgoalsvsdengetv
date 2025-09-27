@@ -7,7 +7,7 @@ from httpx import Client
 class Dengetv54Manager:
     def __init__(self):
         self.httpx = Client(timeout=10, verify=False)
-        self.base_stream_url = "https://one.zirvedesin11.sbs/"
+        self.base_stream_url = "https://tible.zirvedesin13.sbs/"
         self.channel_files = {
             1: "yayinzirve.m3u8", 2: "yayin1.m3u8", 3: "yayininat.m3u8", 4: "yayinb2.m3u8",
             5: "yayinb3.m3u8", 6: "yayinb4.m3u8", 7: "yayinb5.m3u8", 8: "yayinbm1.m3u8",
